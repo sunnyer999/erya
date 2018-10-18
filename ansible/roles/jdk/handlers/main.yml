@@ -1,0 +1,4 @@
+﻿---
+- name: clean tmp dir
+  file: path={{jdk_ops_tmp_dir}} state=absent
+...

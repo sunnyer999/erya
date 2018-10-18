@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api_main" target="1.8" />
+      <module name="api_test" target="1.8" />
+      <module name="appliances_main" target="1.8" />
+      <module name="appliances_test" target="1.8" />
+      <module name="crawlers_main" target="1.8" />
+      <module name="crawlers_test" target="1.8" />
+      <module name="erya_main" target="1.8" />
+      <module name="erya_test" target="1.8" />
+      <module name="security_main" target="1.8" />
+      <module name="security_test" target="1.8" />
+      <module name="services_main" target="1.5" />
+      <module name="services_test" target="1.5" />
+      <module name="shared_main" target="1.8" />
+      <module name="shared_test" target="1.8" />
+      <module name="trackers_main" target="1.8" />
+      <module name="trackers_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

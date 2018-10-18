@@ -1,0 +1,22 @@
+﻿---
+- name: copy jdk{{jdk_version}} to remote node
+  copy: src={{item.src}} dest={{item.dest}}
+  with_items:
+    - {src: "{{role_path}}/files/jdk-{{jdk_version}}-linux-x64.tar.gz", dest: "{{jdk_ops_tmp_dir}}" }
+
+- name: unarchive jdk to {{jdk_install_path}}
+  unarchive: 
+    src: "{{jdk_ops_tmp_dir}}/jdk-{{jdk_version}}-linux-x64.tar.gz" 
+    dest: "{{jdk_install_path}}"
+    remote_src: True
+
+- name: set Java environment variables
+  lineinfile: dest=~/.bash_profile backup=yes regexp={{item.regexp}} line={{item.line}} 
+  with_items:
+    - {regexp: '^JAVA_HOME=.*', line: 'export JAVA_HOME={{java_home}}'}
+    - {regexp: '^JRE_HOME=.*', line: 'export JRE_HOME={{java_home}}/jre'}
+    - {regexp: '^PATH=.*', line: 'export PATH=$PATH:$HOME/bin:{{java_home}}/bin:{{jre_home}}/bin'}
+
+- name: make the env take effective
+  shell: 'source ~/.bash_profile'
+...

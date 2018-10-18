@@ -1,0 +1,9 @@
+﻿---
+
+- include: ./jenkins-servers.yml
+
+#- include: nodejs-servers.yml
+
+#- include: springboot-servers.yml
+
+...

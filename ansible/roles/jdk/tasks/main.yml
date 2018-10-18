@@ -1,0 +1,5 @@
+﻿---
+- include: check_env.yml
+
+- include: install_jdk.yml
+...

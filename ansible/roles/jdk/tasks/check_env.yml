@@ -1,0 +1,17 @@
+﻿---
+- name: be sure the remote os is CentOS 7.3
+  fail: msg="CentOS 7.3 is required"
+  when: 
+    - ansible_distribution != "CentOS"
+    - ('7.3.' not in ansible_distribution_version)
+
+- name: check required path state 
+  file: path={{item.path}} state={{item.state}}
+  with_items: 
+    - {path: "{{jdk_install_path}}", state: directory }
+    - {path: "{{jdk_ops_tmp_dir}}", state: absent}
+    - {path: "{{jdk_ops_tmp_dir}}", state: directory}
+  notify: clean tmp dir
+
+
+...

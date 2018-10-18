@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api_main.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api_test.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/appliances/appliances.iml" filepath="$PROJECT_DIR$/.idea/modules/services/appliances/appliances.iml" group="services/appliances" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/appliances/appliances_main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/appliances/appliances_main.iml" group="services/appliances" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/appliances/appliances_test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/appliances/appliances_test.iml" group="services/appliances" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/crawlers/crawlers.iml" filepath="$PROJECT_DIR$/.idea/modules/services/crawlers/crawlers.iml" group="services/crawlers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/crawlers/crawlers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/crawlers/crawlers_main.iml" group="services/crawlers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/crawlers/crawlers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/crawlers/crawlers_test.iml" group="services/crawlers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/erya.iml" filepath="$PROJECT_DIR$/.idea/modules/erya.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/erya_main.iml" filepath="$PROJECT_DIR$/.idea/modules/erya_main.iml" group="erya" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/erya_test.iml" filepath="$PROJECT_DIR$/.idea/modules/erya_test.iml" group="erya" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/support/security/security.iml" filepath="$PROJECT_DIR$/.idea/modules/support/security/security.iml" group="support/security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/support/security/security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/support/security/security_main.iml" group="support/security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/support/security/security_test.iml" filepath="$PROJECT_DIR$/.idea/modules/support/security/security_test.iml" group="support/security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/services.iml" group="services" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/shared/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/services/shared/shared.iml" group="services/shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/shared/shared_main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/shared/shared_main.iml" group="services/shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/shared/shared_test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/shared/shared_test.iml" group="services/shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/support/support.iml" filepath="$PROJECT_DIR$/.idea/modules/support/support.iml" group="support" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/trackers/trackers.iml" filepath="$PROJECT_DIR$/.idea/modules/services/trackers/trackers.iml" group="services/trackers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/trackers/trackers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/trackers/trackers_main.iml" group="services/trackers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/trackers/trackers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/trackers/trackers_test.iml" group="services/trackers" />
+    </modules>
+  </component>
+</project>

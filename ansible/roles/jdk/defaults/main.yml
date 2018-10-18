@@ -1,0 +1,11 @@
+﻿---
+
+jdk_install_path: '/usr/lib'
+jdk_ops_tmp_dir: '/tmp/jdk_install_tmp'
+jdk_version: "{{jdk_major_version}}u{{jdk_minor_version}}"
+jdk_major_version: '8'
+jdk_minor_version: '112'
+java_home: '{{jdk_install_path}}/jdk1.{{jdk_major_version}}.0_{{jdk_minor_version}}'
+jre_home: '{{java_home}}/jre'
+
+...

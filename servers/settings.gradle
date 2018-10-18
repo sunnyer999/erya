@@ -1,0 +1,9 @@
+rootProject.name = 'erya'
+include 'api'
+include 'services:crawlers'
+include 'services:shared'
+include 'services:appliances'
+include 'services:trackers'
+include 'support:security'
+
+

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8438419e-2ec5-45c2-b1b4-b583825b598b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ansible/jenkins-servers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/jenkins-servers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/nodejs-servers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/nodejs-servers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/production.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/production.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jdk/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jdk/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jdk/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jdk/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jdk/tasks/check_env.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jdk/tasks/check_env.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jdk/tasks/install_jdk.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jdk/tasks/install_jdk.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jdk/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jdk/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jenkins/tasks/install_jenkins.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jenkins/tasks/install_jenkins.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/roles/jenkins/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/jenkins/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/site.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/springboot-servers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/springboot-servers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/staging.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/staging.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/clients/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/clients/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/clients/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/clients/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/clients/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/backers.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients/backers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/dev-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/dev-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/dev-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/webpack.deploy.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/webpack.deploy.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/components/layout/AppMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/components/layout/AppMain.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/components/layout/FooterBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/components/layout/FooterBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/components/layout/Levelbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/components/layout/Levelbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/components/layout/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/components/layout/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/components/layout/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/components/layout/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/components/layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/components/layout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/filters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/filters/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/dashboard/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/dashboard/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/dashboard/helpcenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/dashboard/helpcenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/dashboard/scenario-owners.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/dashboard/scenario-owners.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/menu/helpcenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/menu/helpcenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/menu/lazyLoading.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/menu/lazyLoading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/menu/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/menu/tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/menu/track.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/menu/track.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/tools/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/tools/tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/modules/tracksystem/tracksystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/modules/tracksystem/tracksystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/store/mutation-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/store/mutation-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/dashboard/components/LatestTestScenarioStats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/dashboard/components/LatestTestScenarioStats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/dashboard/components/PassRatePie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/dashboard/components/PassRatePie.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/dashboard/components/PipelineTrend.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/dashboard/components/PipelineTrend.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/dashboard/components/TestScenarioStats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/dashboard/components/TestScenarioStats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/dashboard/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/dashboard/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/helpcenter/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/helpcenter/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/helpcenter/Issue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/helpcenter/Issue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/tools/quick-chat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/tools/quick-chat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/tools/robot-booster.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/tools/robot-booster.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/tools/verify/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/tools/verify/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppModelPie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppModelPie.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppReq.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppReq.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppReqAssign.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppReqAssign.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppReqList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/AppReqList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/EditApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/EditApp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/appliances/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/appliances/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/deployment/components/AppModelForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/deployment/components/AppModelForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/client/views/track/deployment/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/clients/client/views/track/deployment/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/config/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/config/test.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/doc/charts.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients/doc/charts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/doc/components.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients/doc/components.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/doc/dependencies.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients/doc/dependencies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/doc/development.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients/doc/development.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/electronIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/electronIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clients/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/clients/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/alert.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/alert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/badge.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/badge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/breadcrumb-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/breadcrumb-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/breadcrumb.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/breadcrumb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/button-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/button-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/carousel-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/carousel-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/cascader.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/cascader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/checkbox-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/checkbox-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/col.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/col.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/collapse-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/collapse-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/collapse.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/collapse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/date-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/date-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/dropdown-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/dropdown-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/dropdown-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/dropdown-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/element-variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/element-variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/fonts/element-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/fonts/element-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/form-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/form-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/input-number.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/input-number.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/menu-item-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/menu-item-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/menu-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/menu-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/message-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/message-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/message.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/notification.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/option-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/option-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/option.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/option.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/popover.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/popover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/progress.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/progress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/radio-group.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/radio-group.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/radio.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/radio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/rate.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/rate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/row.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/select-dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/select-dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/spinner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/submenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/submenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/switch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/tab-pane.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/tab-pane.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/table-column.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/table-column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/time-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/time-picker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/time-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/time-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/tooltip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/theme/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/clients/theme/upload.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/clients/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/api/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/api/api_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/api/api_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/api/api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/api/api_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/erya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/erya.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/erya_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/erya_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/erya_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/erya_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/appliances/appliances.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/appliances/appliances.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/appliances/appliances_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/appliances/appliances_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/appliances/appliances_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/appliances/appliances_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/crawlers/crawlers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/crawlers/crawlers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/crawlers/crawlers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/crawlers/crawlers_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/crawlers/crawlers_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/crawlers/crawlers_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/services.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/services.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/shared/shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/shared/shared.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/shared/shared_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/shared/shared_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/shared/shared_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/shared/shared_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/trackers/trackers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/trackers/trackers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/trackers/trackers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/trackers/trackers_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/services/trackers/trackers_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/services/trackers/trackers_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/support/security/security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/support/security/security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/support/security/security_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/support/security/security_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/support/security/security_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/support/security/security_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/modules/support/support.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/modules/support/support.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/api/src/main/java/com/veritas/automation/erya/api/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/api/src/main/java/com/veritas/automation/erya/api/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/appliances/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/appliances/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/appliances/src/main/java/com/veritas/automation/erya/services/appliances/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/appliances/src/main/java/com/veritas/automation/erya/services/appliances/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/appliances/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/appliances/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CiDeploymentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CiDeploymentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CiResultsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CiResultsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CiTestsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CiTestsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CrawlerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/controllers/CrawlerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/core/RestCorsCustomization.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/core/RestCorsCustomization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/BuildJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/BuildJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/CiJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/CiJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/CiJobResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/CiJobResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/CiResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/CiResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/DeploymentJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/DeploymentJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/DeploymentJobResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/DeploymentJobResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/DeploymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/DeploymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/ReportJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/ReportJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/RobotResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/RobotResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/TestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/TestJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/TestJobResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/entities/TestJobResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/repositories/CiResultRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/repositories/CiResultRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/repositories/DeploymentJobRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/repositories/DeploymentJobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/repositories/TestJobRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/repositories/TestJobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/java/com/veritas/automation/erya/services/crawlers/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/crawlers/src/test/java/com/veritas/automation/erya/services/crawlers/entities/MongoDbCollectionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/crawlers/src/test/java/com/veritas/automation/erya/services/crawlers/entities/MongoDbCollectionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/shared/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/shared/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/shared/src/main/java/com/veritas/automation/erya/services/shared/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/shared/src/main/java/com/veritas/automation/erya/services/shared/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/shared/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/shared/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/trackers/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/trackers/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/trackers/src/main/java/com/veritas/automation/erya/services/trackers/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/trackers/src/main/java/com/veritas/automation/erya/services/trackers/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/services/trackers/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/services/trackers/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/support/security/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servers/support/security/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/support/security/src/main/java/com/veritas/automation/erya/support/security/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/servers/support/security/src/main/java/com/veritas/automation/erya/support/security/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/support/security/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/servers/support/security/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mutation-types.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clients/client/store/mutation-types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clients/client/store/api/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GET_CI_DEPLOYMENTS_TYPE</find>
+      <find>fa-refresh</find>
+      <find>demo-table-expand</find>
+      <find>process</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/clients/client/views/dashboard/index.vue" />
+        <option value="$PROJECT_DIR$/clients/client/app.js" />
+        <option value="$PROJECT_DIR$/clients/client/views/tools/verify/index.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/clients/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/clients/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erya" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../erya_backend/erya-backend" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8438419e-2ec5-45c2-b1b4-b583825b598b" name="Default" comment="" />
+      <created>1538535458940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538535458940</updated>
+      <workItem from="1538535461197" duration="2950000" />
+      <workItem from="1538550878487" duration="5151000" />
+      <workItem from="1538704911222" duration="1550000" />
+      <workItem from="1539011793497" duration="3147000" />
+      <workItem from="1539039563379" duration="3716000" />
+      <workItem from="1539096851655" duration="2363000" />
+      <workItem from="1539120117429" duration="1019000" />
+      <workItem from="1539122709673" duration="1977000" />
+      <workItem from="1539270436659" duration="876000" />
+      <workItem from="1539439258752" duration="1607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24356000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.04574468" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/clients/client/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/mutation-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/theme/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/dashboard/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5786">
+          <caret line="265" column="8" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/AppMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/FooterBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/Levelbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="7" selection-start-line="16" selection-start-column="2" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7766">
+          <caret line="361" column="51" lean-forward="true" selection-start-line="361" selection-start-column="51" selection-end-line="361" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/track/appliances/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/dashboard/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5786">
+          <caret line="265" column="8" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/LogIn.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/dashboard/components/PipelineTrend.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/track/deployment/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124">
+          <caret line="156" column="12" lean-forward="true" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/track/appliances/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7766">
+          <caret line="361" column="51" selection-start-line="361" selection-start-column="51" selection-end-line="361" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/dashboard/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5786">
+          <caret line="265" column="8" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/theme/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/AppMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/FooterBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/components/layout/Levelbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/track/appliances/components/AppList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/filters/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/tools/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/menu/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="3" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/modules/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/tools/verify/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/mutation-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/client/store/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
